@@ -13,6 +13,7 @@
 		12D45CF42BED9103006C9842 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 12D45CF32BED9103006C9842 /* Base */; };
 		12D45CF62BED9106006C9842 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12D45CF52BED9106006C9842 /* Assets.xcassets */; };
 		12D45CF92BED9106006C9842 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 12D45CF82BED9106006C9842 /* Base */; };
+		12D45DCC2BED9EDF006C9842 /* sample.tsv in Resources */ = {isa = PBXBuildFile; fileRef = 12D45DCB2BED9EDF006C9842 /* sample.tsv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,8 @@
 		12D45CF82BED9106006C9842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12D45CFA2BED9106006C9842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12D45DAE2BED977E006C9842 /* SwiftZSTD.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftZSTD.xcodeproj; path = "../../../../../../Downloads/SwiftZSTD-master/SwiftZSTD.xcodeproj"; sourceTree = "<group>"; };
+		12D45DCB2BED9EDF006C9842 /* sample.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample.tsv; sourceTree = "<group>"; };
+		12D45DCD2BED9EEE006C9842 /* compress.zst */ = {isa = PBXFileReference; lastKnownFileType = file; path = compress.zst; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,7 @@
 		12D45CEB2BED9103006C9842 /* ZstdTest */ = {
 			isa = PBXGroup;
 			children = (
+				12D45DC42BED9EAA006C9842 /* Resources */,
 				12D45DAC2BED974F006C9842 /* Lib */,
 				12D45CEC2BED9103006C9842 /* AppDelegate.swift */,
 				12D45CEE2BED9103006C9842 /* SceneDelegate.swift */,
@@ -141,6 +145,15 @@
 				12D45DC22BED977E006C9842 /* iOSTestApp-Tests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		12D45DC42BED9EAA006C9842 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				12D45DCB2BED9EDF006C9842 /* sample.tsv */,
+				12D45DCD2BED9EEE006C9842 /* compress.zst */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +268,7 @@
 				12D45CF62BED9106006C9842 /* Assets.xcassets in Resources */,
 				12D45CF92BED9106006C9842 /* Base in Resources */,
 				12D45CF42BED9103006C9842 /* Base in Resources */,
+				12D45DCC2BED9EDF006C9842 /* sample.tsv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
